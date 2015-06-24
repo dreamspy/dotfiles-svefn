@@ -6,8 +6,8 @@
 
 ########## Variables
 
-dir=~/dotfiles                    # dotfiles directory
-olddir=~/dotfiles_old             # old dotfiles backup directory
+dir=~/dotfiles-svefn                    # dotfiles directory
+olddir=~/dotfiles-svefn_old             # old dotfiles backup directory
 files="vimrc bashrc bashrc_functions gitconfig tmux.conf bash_aliases config oh-my-fish"    # list of files/folders to symlink in homedir
 
 ##########
