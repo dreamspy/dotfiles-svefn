@@ -1,0 +1,22 @@
+set -g -x PATH /usr/local/bin $PATH
+set -g -x fish_greeting ''
+
+########## From http://jbrodriguez.io/switching-from-zsh-to-fish/ #########
+
+# Set where to install casks
+set -x HOMEBREW_CASK_OPTS "--appdir=/Applications"
+
+set -x GREP_OPTIONS '--color=auto'
+#set -x GREP_COLOR '3;33'
+
+set -x LESS '--ignore-case --raw-control-chars'
+set -x PAGER 'less'
+#set -x EDITOR 'nano'
+
+set -x LANG "is_IS.UTF-8"
+set -x LC_CTYPE "is_IS.UTF-8"
+set -x LC_MESSAGES "is_IS.UTF-8"
+#set -x LC_COLLATE C
+
+#source functions/z.fish
+
