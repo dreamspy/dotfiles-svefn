@@ -10,7 +10,7 @@
 dir=$PWD/backup                    
 
 # list of files to backup
-files=".bashrc_functions .gitconfig .tmux.conf .bash_aliases .config .oh-my-fish .vimrc"    
+files=".bashrc_functions .gitconfig .tmux.conf .bash_aliases .config .oh-my-fish .vimrc .zshenv .zshrc .oh-my-zsh"    
 
 
 
