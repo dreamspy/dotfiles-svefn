@@ -44,3 +44,5 @@
 	trustExitCode = false
 [merge]
 	tool = sublime
+[core]
+	excludesfile = /Users/frimann/.gitignore_global

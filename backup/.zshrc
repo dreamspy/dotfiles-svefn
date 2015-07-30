@@ -60,10 +60,9 @@ plugins=(git-extras urltools tmux wd fabric common-aliases git colored-man color
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin:/usr/local/share/python:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Applications/1.homecooked"
+export PATH="/Users/frimann/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin:/usr/local/share/python"
 # export MANPATH="/usr/local/man:$MANPATH"
 
-source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -101,3 +100,10 @@ alias envconfig="subl ~/.zshenv.sh"
 if [ -f ~/.zshenv ]; then
     . ~/.zshenv
 fi
+
+#enable autojump j
+  [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+
+
+
+source $ZSH/oh-my-zsh.sh

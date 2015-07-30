@@ -17,7 +17,7 @@ export PATH="/usr/local/bin:$PATH"
 
 # Setting PATH for Python 3.5
 # The orginal version is saved in .bash_profile.pysave
-export PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+#export PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 #export PATH=/usr/local/share/python:$PATH
 
 ####################
@@ -30,6 +30,7 @@ export PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 #Setup python
 export WORKON_HOME=~/.virtualenvs
 export PROJECT_HOME=$HOME/programming
+#export VIRTUALENVWRAPPER_PYTHON=/Library/Frameworks/Python.framework/Versions/3.5/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh
 
 # use gpip3 to install gloabaly and bybass this:
